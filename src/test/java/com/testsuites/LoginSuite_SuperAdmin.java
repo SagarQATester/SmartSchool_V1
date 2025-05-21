@@ -18,6 +18,7 @@ public class LoginSuite_SuperAdmin extends BaseClass {
 	@Test(description = "Verify that the user can successfully log in with valid credentials (correct username and password).")
 	public void TC_SLF_001() throws InterruptedException
 	{
+		// Webhook added >>Now run the build by webhook
 		String testcaseName="Verify that the user can successfully log in with valid credentials (correct username and password).  ";
 		ExtentReport.createTest(testcaseName, featureName, author);
 		loginPage=new LoginPage_SuperAdmin(driver);
