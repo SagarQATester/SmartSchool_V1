@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T20:04:43 IST" name="Default suite" finished-at="2025-05-19T20:04:52 IST" duration-ms="9058">
+  <suite started-at="2025-05-19T22:08:52 IST" name="Suite" finished-at="2025-05-19T22:09:05 IST" duration-ms="12681">
     <groups>
     </groups>
-    <test started-at="2025-05-19T20:04:43 IST" name="Default test" finished-at="2025-05-19T20:04:52 IST" duration-ms="9058">
+    <test started-at="2025-05-19T22:08:52 IST" name="Test" finished-at="2025-05-19T22:09:05 IST" duration-ms="12681">
       <class name="com.testsuites.LoginSuite_SuperAdmin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T20:04:43 IST" name="setUp" finished-at="2025-05-19T20:04:47 IST" duration-ms="4273" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T22:08:53 IST" name="setUp" finished-at="2025-05-19T22:09:00 IST" duration-ms="6620" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_SLF_001()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T20:04:47 IST" name="TC_SLF_001" description="Verify that the user can successfully log in with valid credentials (correct username and password)." finished-at="2025-05-19T20:04:51 IST" duration-ms="3858" status="PASS">
+        <test-method signature="TC_SLF_001()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T22:09:00 IST" name="TC_SLF_001" description="Verify that the user can successfully log in with valid credentials (correct username and password)." finished-at="2025-05-19T22:09:05 IST" duration-ms="4939" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_SLF_001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T20:04:51 IST" name="tearDown" finished-at="2025-05-19T20:04:52 IST" duration-ms="304" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite_SuperAdmin@6574a52c]" started-at="2025-05-19T22:09:05 IST" name="tearDown" finished-at="2025-05-19T22:09:05 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testsuites.LoginSuite_SuperAdmin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
