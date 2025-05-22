@@ -39,9 +39,9 @@ public class ExtentReport {
 			
 		}
 		
-		public static void createTest(String testcaseName, String featureName, String author)
+		public static void createTest(String testcaseName, String featureName, String author, String browserName)
 		{
-			ExtentManager.setExtentTest(extents.createTest(testcaseName).assignCategory(featureName).assignAuthor(author));
+			ExtentManager.setExtentTest(extents.createTest(testcaseName).assignCategory(featureName).assignAuthor(author).assignDevice(browserName));
 		}
 	
 		
