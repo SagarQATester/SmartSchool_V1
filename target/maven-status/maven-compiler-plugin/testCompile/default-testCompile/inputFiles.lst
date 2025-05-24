@@ -1,8 +1,9 @@
-F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\pageobjects\LoginPage_SuperAdmin.java
 F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentListener.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\pageobjects\LoginPage.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\pageobjects\LandingPage.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\testsuites\LoginSuite.java
 F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentLogger.java
-F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentManager.java
-F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentReport.java
-F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\testcomponents\BaseClass.java
-F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\testsuites\LoginSuite_SuperAdmin.java
 F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\utils\ReusableComponents.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentReport.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\reports\ExtentManager.java
+F:\StudyProjects\SmartSchool\Automation\SmartSchool_V1\src\test\java\com\testcomponents\BaseClass.java

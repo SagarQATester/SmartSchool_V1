@@ -1,5 +1,7 @@
 package com.pageobjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,6 +28,15 @@ public class LoginPage extends ReusableComponents {
 
 	@FindBy(xpath = "//div[@class='alert alert-danger']")
 	WebElement invalidLogin;
+
+	@FindBy(xpath = "//span[@class='text-danger']/p")
+	List<WebElement> errorMessages;
+	
+	@FindBy(xpath="(//span[@class='text-danger']/p)[1]")
+	WebElement usernameEmptyError;	
+
+	@FindBy(xpath="(//span[@class='text-danger']/p)[2]")
+	WebElement passwordEmptyError;
 
 	public LoginPage(WebDriver driver) {
 		super(driver);
@@ -78,5 +89,37 @@ public class LoginPage extends ReusableComponents {
 			return errorStatus = false;
 		}
 	}
+
+	public boolean verifyEmptyErrorMessage(String userNameEmpty, String passwordEmpty) {
+
+		boolean errorStatus = false;
+		if(errorMessages!=null) {
+			for (WebElement errorMessage : errorMessages) {
+				if (errorMessage.getText().equalsIgnoreCase(userNameEmpty)
+						|| errorMessage.getText().equalsIgnoreCase(passwordEmpty)) {
+					ExtentLogger.pass("Proper Error Message Displayed On Screen ");
+					errorStatus = true;
+
+				} else {
+					ExtentLogger.fail("Wrong Error Message Displayed on the screen");
+					errorStatus=false;
+
+				}
+			}
+	
+		}
+		else {
+			ExtentLogger.fail("Error Message not displayed on the screen ");
+		}
+				return errorStatus;
+	}
+	
+	public void verifyUsernameEmptyErrorMessage(String usernameEmptyErrorMsg) {
+		
+		boolean errorStatus=false;
+		if(usernameEmptyError.getText().equalsIgnoreCase(usernameEmptyErrorMsg));
+	}
+	
+	
 
 }

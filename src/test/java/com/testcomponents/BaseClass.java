@@ -11,7 +11,7 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void setUp()
 	{
 		driver= new ChromeDriver();
@@ -22,7 +22,7 @@ public class BaseClass {
 		
 	}
 	
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void tearDown()
 	{
 		driver.quit();
