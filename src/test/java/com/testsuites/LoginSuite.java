@@ -41,7 +41,7 @@ public class LoginSuite extends BaseClass {
      */
     @Test(priority = 1, enabled = true,
           description = "Verify that the user can successfully log in with valid credentials",
-          groups = { "Reggression", "Smoke" })
+          groups = { "Regression", "Smoke" })
     public void TC_SLF_001() throws InterruptedException {
         String testcaseName = "Verify that the user can successfully log in with valid credentials (correct username and password).";
         ExtentReport.createTest(testcaseName, featureName, author, browserName);
