@@ -1,47 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-24T22:42:13 IST" name="Login Suite" finished-at="2025-05-24T22:42:26 IST" duration-ms="12841">
+  <suite started-at="2025-05-25T20:14:04 IST" name="Default suite" finished-at="2025-05-25T20:14:42 IST" duration-ms="37818">
     <groups>
       <group name="Reggression">
-        <method signature="LoginSuite.TC_SLF_001()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" name="TC_SLF_001" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_001()[pri:1, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_001" class="com.testsuites.LoginSuite"/>
       </group> <!-- Reggression -->
       <group name="Regression">
-        <method signature="LoginSuite.TC_SLF_002()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" name="TC_SLF_002" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_002()[pri:2, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_002" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_003()[pri:3, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_003" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_004()[pri:4, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_004" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_005()[pri:5, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_005" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_006()[pri:6, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_006" class="com.testsuites.LoginSuite"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="LoginSuite.TC_SLF_001()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" name="TC_SLF_001" class="com.testsuites.LoginSuite"/>
-        <method signature="LoginSuite.TC_SLF_002()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" name="TC_SLF_002" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_001()[pri:1, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_001" class="com.testsuites.LoginSuite"/>
+        <method signature="LoginSuite.TC_SLF_002()[pri:2, instance:com.testsuites.LoginSuite@1e6a3214]" name="TC_SLF_002" class="com.testsuites.LoginSuite"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-05-24T22:42:13 IST" name="Login Functionality" finished-at="2025-05-24T22:42:26 IST" duration-ms="12841">
+    <test started-at="2025-05-25T20:14:04 IST" name="Default test" finished-at="2025-05-25T20:14:42 IST" duration-ms="37818">
       <class name="com.testsuites.LoginSuite">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:14 IST" name="setUp" finished-at="2025-05-24T22:42:18 IST" duration-ms="4019" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:05 IST" name="setUp" finished-at="2025-05-25T20:14:09 IST" duration-ms="4503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_SLF_001()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:18 IST" name="TC_SLF_001" description="Verify that the user can successfully log in with valid credentials" finished-at="2025-05-24T22:42:21 IST" duration-ms="3004" status="PASS">
+        <test-method signature="TC_SLF_001()[pri:1, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:09 IST" name="TC_SLF_001" description="Verify that the user can successfully log in with valid credentials" finished-at="2025-05-25T20:14:13 IST" duration-ms="3851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_SLF_001 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:21 IST" name="tearDown" finished-at="2025-05-24T22:42:21 IST" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:13 IST" name="tearDown" finished-at="2025-05-25T20:14:14 IST" duration-ms="458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:21 IST" name="setUp" finished-at="2025-05-24T22:42:24 IST" duration-ms="2442" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:14 IST" name="setUp" finished-at="2025-05-25T20:14:17 IST" duration-ms="3422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="TC_SLF_002()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:24 IST" name="TC_SLF_002" description="To verify whether the Super Admin can log in to the application with the invalid credentials, proper error message should be displayed " finished-at="2025-05-24T22:42:25 IST" duration-ms="1335" status="PASS">
+        <test-method signature="TC_SLF_002()[pri:2, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:17 IST" name="TC_SLF_002" description="Verify Super Admin login with invalid credentials shows proper error message" finished-at="2025-05-25T20:14:19 IST" duration-ms="1732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_SLF_002 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@63376bed]" started-at="2025-05-24T22:42:26 IST" name="tearDown" finished-at="2025-05-24T22:42:26 IST" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:19 IST" name="tearDown" finished-at="2025-05-25T20:14:20 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:20 IST" name="setUp" finished-at="2025-05-25T20:14:22 IST" duration-ms="2688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_SLF_003()[pri:3, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:22 IST" name="TC_SLF_003" description="Leave the username and password fields empty and submit the form, ensuring that both error messages are shown." finished-at="2025-05-25T20:14:24 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SLF_003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:24 IST" name="tearDown" finished-at="2025-05-25T20:14:25 IST" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:25 IST" name="setUp" finished-at="2025-05-25T20:14:27 IST" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_SLF_004()[pri:4, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:27 IST" name="TC_SLF_004" description="Enter a valid username but an empty password and submit the form to check for the required password error message." finished-at="2025-05-25T20:14:28 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SLF_004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:29 IST" name="tearDown" finished-at="2025-05-25T20:14:29 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:29 IST" name="setUp" finished-at="2025-05-25T20:14:32 IST" duration-ms="2418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_SLF_005()[pri:5, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:32 IST" name="TC_SLF_005" description="Enter a valid password but an empty username and submit the form to check for the required username error message." finished-at="2025-05-25T20:14:33 IST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SLF_005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:33 IST" name="tearDown" finished-at="2025-05-25T20:14:34 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:34 IST" name="setUp" finished-at="2025-05-25T20:14:36 IST" duration-ms="2425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TC_SLF_006()[pri:6, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:36 IST" name="TC_SLF_006" description="Validate whether the application is able to send password recovery mail to the user when user forgot the password" finished-at="2025-05-25T20:14:41 IST" duration-ms="5237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SLF_006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsuites.LoginSuite@1e6a3214]" started-at="2025-05-25T20:14:42 IST" name="tearDown" finished-at="2025-05-25T20:14:42 IST" duration-ms="336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testsuites.LoginSuite -->
-    </test> <!-- Login Functionality -->
-  </suite> <!-- Login Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

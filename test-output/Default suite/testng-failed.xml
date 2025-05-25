@@ -5,9 +5,9 @@
     <classes>
       <class name="com.testsuites.LoginSuite">
         <methods>
+          <include name="TC_SLF_006"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="TC_SLF_005"/>
         </methods>
       </class> <!-- com.testsuites.LoginSuite -->
     </classes>

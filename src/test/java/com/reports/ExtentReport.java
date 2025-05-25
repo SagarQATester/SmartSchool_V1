@@ -20,7 +20,7 @@ public class ExtentReport {
 	
 			String timeStamp= new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
 			String reportName="TestReport-"+timeStamp+".html";
-			path=System.getProperty("user.dir")+"\\extent-test-output"+reportName;
+			path=System.getProperty("user.dir")+"\\extent-test-output\\"+reportName;
 			ExtentSparkReporter sparkReporter= new ExtentSparkReporter(path).viewConfigurer().viewOrder().as(new ViewName[] { ViewName.DASHBOARD, ViewName.TEST, ViewName.CATEGORY,ViewName.AUTHOR }).apply();
 			sparkReporter.config().setTheme(Theme.DARK);
 			sparkReporter.config().setDocumentTitle("Smart School Test Report");

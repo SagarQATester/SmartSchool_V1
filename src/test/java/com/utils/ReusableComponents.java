@@ -40,9 +40,11 @@ public class ReusableComponents {
 		try {
 
 			ele.click();
+			ExtentLogger.pass("Clicked on "+fieldName);
 			System.out.println("Clicked on " + fieldName);
 		} catch (Exception e) {
 			e.printStackTrace();
+			ExtentLogger.fail("Not able to click on" + fieldName);
 			Assert.fail("Not able to click on" + fieldName);
 
 		}
